@@ -1,3 +1,3 @@
-FROM node:16-alpine
+FROM node:25-alpine
 COPY hello.js .
 CMD ["node", "hello.js"]
